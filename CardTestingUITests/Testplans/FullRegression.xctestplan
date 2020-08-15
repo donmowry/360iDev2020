@@ -1,0 +1,32 @@
+{
+  "configurations" : [
+    {
+      "id" : "AA45F767-390A-4A41-807C-02E18B761F81",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "commandLineArgumentEntries" : [
+      {
+        "argument" : "-UITestSpecialFlag"
+      }
+    ]
+  },
+  "testTargets" : [
+    {
+      "selectedTests" : [
+        "CardTestingUITests\/testSelectTopicAndFlipCard()",
+        "CardTestingUITests\/testSelectTopicAndFlipCardWithRobot()"
+      ],
+      "target" : {
+        "containerPath" : "container:CardTesting.xcodeproj",
+        "identifier" : "F6BB6F9224DDBE6500133D1D",
+        "name" : "CardTestingUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
